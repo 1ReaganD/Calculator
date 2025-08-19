@@ -1,0 +1,90 @@
+body{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.container{
+    border: 6px solid black;
+    margin: 50px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    border: 1px solid black;
+    background-color: rgb(132, 135, 138);
+    width: 95%;
+    height: 10%;
+    margin: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 44px;
+
+}
+.dividerLine{
+    border: 2px solid black;
+    /* width: 99%; */
+}
+.buttons{
+    display: flex;
+    gap: 16px;
+    /* background-color: blue; */
+    flex-wrap: wrap;
+    padding: 10px;
+    flex: 1;
+    /* background-color: blue; */
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(139, 135, 135);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 24px;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+button:hover{
+    transform: scale(0.9);
+    background-color: rgb(49, 42, 42);
+}
+.container2{
+    display: flex;
+    flex: 1;
+}
+.operatingButtons{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    padding: 15px;
+    gap: 16px;
+    /* align-content: space-between; */
+}
+.operatingButtons > button{
+    width: 60px;
+    height: 120px;
+    background-color: rgb(139, 135, 135);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 24px;
+    /* border-radius: 30px; */
+    transition: transform 0.5s;
+}
+.operatingButtons > button:hover{
+    transform: scale(0.9);
+    background-color: rgb(207, 37, 37);
+}
+#clear{
+    background-color: rgb(207, 37, 37);
+}
+
